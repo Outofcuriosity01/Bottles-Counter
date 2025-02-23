@@ -19,7 +19,6 @@ function save(){
     saveEl.textContent += saveCount + " - " // Use textContent to get or set the text of an element. It sets the raw text and does not interpret HTML or CSS styles
     count = 0
     countEl.textContent = 0
-    totCount = []
     console.log(count)
 }
 
@@ -27,6 +26,7 @@ function reset(){
     count = 0
     countEl.textContent = 0
     saveEl.textContent = "Previous Entries:"
+    totCount = []
     console.log(count)
 }
 
